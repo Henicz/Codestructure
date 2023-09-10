@@ -1,0 +1,17 @@
+resource resource_group "old_resource_group1" {
+    name: 'rg-pracadyplomowatest-we-001'
+    location: 'northeurope'
+}
+
+resource storage_account "storage_account" {
+    name: 'pracadyplomowa2023'
+    location: 'westeurope'
+    resource_group_name: resource.resource_group.resource_group.name
+    sku: 'Standard_GRS'
+    kind: 'StorageV2'
+}
+
+resource resource_group "resource_group" {
+    name: 'rg-pracadyplomowa-we-001'
+    location: 'westeurope'
+}

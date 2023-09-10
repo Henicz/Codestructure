@@ -1,0 +1,7 @@
+configuration {
+    subscription_id: "41abe5d1-****-****-b020-*********"
+    spn_object_id: "5528b99f-****-4d74-****-*********"
+    spn_secret: "***"
+    state_file_name: "state.cststate"
+    tenant_id: "23380e94-****-4371-bf3e-*********"
+}

@@ -1,0 +1,5 @@
+parameters {
+    rg_name: 'myResourceGroup'
+    location: 'westeurope'
+    sa_name: 'mystorageaccount
+}
